@@ -1,0 +1,12 @@
+matplotlib==3.5.1
+numpy==1.22.2
+opencv_python==4.5.1.48
+opencv_python_headless==4.5.3.56
+Pillow==9.5.0
+piqa==1.2.2
+pytesseract==0.3.10
+Requests==2.30.0
+scipy==1.7.3
+torch==1.10.0
+torchvision==0.11.1
+transformers==4.26.0

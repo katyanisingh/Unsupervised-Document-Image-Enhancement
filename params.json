@@ -1,0 +1,17 @@
+{
+    "epoch": 0,
+    "n_epochs": 100,
+    "batchSize":1,
+    "dataroot": "datasets/kaggle",
+    "lr":0.0002,
+    "decay_epoch": 80,
+    "size": 256,
+    "input_nc":1,
+    "output_nc":1,
+    "cuda" : "True",
+    "n_cpu":1,
+    "lambda_identity":0.5,
+    "lambda_cycle_ABA": 10,
+    "lambda_cycle_BAB": 10
+
+}
