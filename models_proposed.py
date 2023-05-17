@@ -36,8 +36,8 @@ class Generator(nn.Module):
         in_features = 64
         out_features = in_features*2
         for _ in range(2):
-            model += [  nn.Conv2d(in_features, out_features, 3, stride=1, padding=1),
-                        nn.MaxPool2d(2),
+            model += [  nn.Conv2d(in_features, out_features, 3, stride=2, padding=1),
+                        #nn.MaxPool2d(2),
                         nn.ReLU(inplace=True) ]
             in_features = out_features
             out_features = in_features*2
