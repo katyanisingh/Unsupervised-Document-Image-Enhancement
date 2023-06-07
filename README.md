@@ -9,9 +9,9 @@ Create a python virtual environment and install the required packages using
 pip3 install -r requirements.txt
 ``` 
 ## Datasets
-The dataset links are as follows:
+All the datasets used can be downloaded from the link below. Place the "datasets" folder in the main directory. 
 
-* [POS](https://drive.google.com/file/d/1h4NI8h1FTYuIswbeUz_ICd_VTNfTlEPZ/view)
+* [Datasets](https://drive.google.com/file/d/1h4NI8h1FTYuIswbeUz_ICd_VTNfTlEPZ/view)
 
 
 ## Training 
@@ -22,4 +22,11 @@ The dataset links are as follows:
 ```
 
 ## Using Pretrained models for evaluation
+1. Pretrained models are available in ./models folder. 
+2.  
  
+## Scripts for OCR evaluation 
+* eval_kaggle.py : OCR evaluation for Kaggle dataset
+* eval_noisyocr.py : OCR evaluation for Noisy OCR dataset
+* eval_pos_wr.py: OCR evaluation for POS and WildReceipt datasets
+
