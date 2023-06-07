@@ -11,7 +11,7 @@ pip3 install -r requirements.txt
 ## Datasets
 All the datasets used can be downloaded from the link below. Place the "datasets" folder in the main directory. 
 
-* [Datasets]([https://drive.google.com/file/d/1c6Leomjyf6to_ElrCrPC-vM4HmvDajRT/view?usp=drive_link])
+* [Datasets][(https://drive.google.com/file/d/1c6Leomjyf6to_ElrCrPC-vM4HmvDajRT/view?usp=drive_link)]
 
 
 ## Training 
