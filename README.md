@@ -15,14 +15,14 @@ All the datasets used can be downloaded from the link below. Place the "datasets
 
 
 ## Training 
-1. Modify the training parameters and dataset name in params.json. 
+1. Modify the training parameters and dataset name in **params.json**
 2. Run the following command
 ```python 
   python train.py --params ./params.json --filename <name_for_saving_trained_model> --wandb_run_name <wandb_run_name> 
 ```
 
 ## Using Pretrained models for evaluation
-1. Pretrained models are available in ./models/saved_models folder.  
+1. Pretrained models are available in **./models/saved_models** folder.  
 2. Modify any test parameters in test.py if required. 
 3. Run the following command
 ```python 
