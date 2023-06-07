@@ -13,3 +13,10 @@ The dataset links are as follows:
 
 * [POS](https://drive.google.com/file/d/1h4NI8h1FTYuIswbeUz_ICd_VTNfTlEPZ/view)
 
+
+## Training 
+1. Modify the training parameters and dataset name in params.json. 
+2. Run the follwoing command
+```python 
+
+
