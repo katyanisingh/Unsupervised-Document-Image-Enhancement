@@ -23,7 +23,8 @@ All the datasets used can be downloaded from the link below. Place the "datasets
 
 ## Using Pretrained models for evaluation
 1. Pretrained models are available in ./models/saved_models folder.  
-2. Run the following command
+2. Modify any test parameters in test.py if required. 
+3. Run the following command
 ```python 
  python test.py --dataroot <path_to_dataset_testfolder> --filename <name_for_output_folder> --generator_A2B <pretrained_model_file>
 ```
