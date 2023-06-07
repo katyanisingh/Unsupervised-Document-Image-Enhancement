@@ -18,7 +18,8 @@ The dataset links are as follows:
 1. Modify the training parameters and dataset name in params.json. 
 2. Run the following command
 ```python 
-  python train.py --param ./params.json --filename <name for saving trained model> --wandb
+  python train.py --params ./params.json --filename <name_for_saving_trained_model> --wandb_run_name <wandb_run_name> 
 ```
 
-
+## Using Pretrained models for evaluation
+ 
