@@ -16,7 +16,9 @@ The dataset links are as follows:
 
 ## Training 
 1. Modify the training parameters and dataset name in params.json. 
-2. Run the follwoing command
+2. Run the following command
 ```python 
+  python train.py 
+```
 
 
