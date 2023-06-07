@@ -11,7 +11,7 @@ pip3 install -r requirements.txt
 ## Datasets
 All the datasets used can be downloaded from the link below. Place the "datasets" folder in the main directory. 
 
-* [Datasets](https://drive.google.com/file/d/1h4NI8h1FTYuIswbeUz_ICd_VTNfTlEPZ/view)
+* [Datasets]([https://drive.google.com/file/d/1c6Leomjyf6to_ElrCrPC-vM4HmvDajRT/view?usp=drive_link])
 
 
 ## Training 
@@ -22,8 +22,12 @@ All the datasets used can be downloaded from the link below. Place the "datasets
 ```
 
 ## Using Pretrained models for evaluation
-1. Pretrained models are available in ./models folder. 
-2.  
+1. Pretrained models are available in ./models/saved_models folder.  
+2. Run the following command
+```python 
+  python test.py --params ./params.json --filename <name_for_saving_trained_model> --wandb_run_name <wandb_run_name> 
+```
+ 
  
 ## Scripts for OCR evaluation 
 * eval_kaggle.py : OCR evaluation for Kaggle dataset
